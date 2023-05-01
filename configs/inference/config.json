@@ -1,7 +1,7 @@
 {
   "exp_name":"EcgResNet34",
   "type": "Runner1D",
-  "device": "cuda:0",
+  "device": "cpu",
   "model": "EcgResNet34",
   "model_path": "./experiments/EcgResNet34/checkpoints/00000635.pth",
 

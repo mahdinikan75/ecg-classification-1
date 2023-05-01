@@ -2,7 +2,7 @@ import torch
 
 
 def load_checkpoint(path, model, optimizer=None):
-    pth = torch.load(path)
+    pth = torch.load(path, map_location=torch.device('cpu'))
 
     model.load_state_dict(pth["state_dict"])
     if optimizer:

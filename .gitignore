@@ -4,5 +4,6 @@ __pycache__
 /experiments
 /mit-bih
 /data
-
+*.zip
 /data-ft
+./env

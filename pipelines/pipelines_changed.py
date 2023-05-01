@@ -1,6 +1,8 @@
 from dataloaders.dataset1d import EcgPipelineDataset1D
 from models import models1d
 from pipelines.base_pipeline import BasePipeline
+import sys
+sys.path.append('/home/price/laser/ecg-resnet34/ecg-classification/pipelines')
 
 
 class Pipeline1D(BasePipeline):
