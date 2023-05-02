@@ -13,7 +13,7 @@ import pandas as pd
 # 7. ! - AFW (Ventricular flutter wave)
 # 8. E - VEB (Ventricular escape beat)
 
-classes = ["N", "V", r"\\", "R", "L", "A", "!", "E"]
+classes = ["N", "V", "/", "R", "L", "A", "!", "E"]
 lead = "MLII"
 extension = "npy"  # or `png` for 2D
 data_path = osp.abspath("../data/*/*/*/*/*.{}".format(extension))

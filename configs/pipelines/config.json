@@ -4,7 +4,7 @@
   "device": "cpu",
   "model": "EcgResNet34",
   "model_path": "./experiments/EcgResNet34/checkpoints/00000635.pth",
-  "ecg_data": "./mit-bih/100",
+  "ecg_data": "./mit-bih/111",
 
   "json": "data/val.json",
   "mapping_json": "data/class-mapper.json",

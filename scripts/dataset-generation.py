@@ -55,8 +55,8 @@ if __name__ == "__main__":
             continue
         signal = scale(signal)
         for i, (label, peak) in enumerate(zip(ann.symbol, ann.sample)):
-            if label == "/":
-                label = "\\"
+            # if label == "/":
+            #     label = "\\"
             print("\r{} [{}/{}]".format(sig_name, i + 1, len(ann.symbol)), end="")
             if isinstance(mode, list):
                 if np.all([i > 0, i + 1 < len(ann.sample)]):
